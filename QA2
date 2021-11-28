@@ -1,2 +1,9 @@
-2
-34
+from selenium import webdriver
+from selenium import webdriver.commen.keys import keys
+import time
+mydriver=webdriver.Chrome
+mydriver.get("www.cent.com")
+#print(mdriver.current_url)
+#time.sleep()
+#mydriver.close()
+#mydriver.quit()
